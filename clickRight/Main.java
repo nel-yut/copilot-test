@@ -1,11 +1,14 @@
-package createTestCode;
+package clickRight;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-// テストコードを作成する
-// ctrl + i でGitHub Copilotのインラインチャットを起動
-// その後、「/tests」 と入力すると、テストコードを作成してくれる
+// ソースコードを選択して右クリック > Copilotでいろいろできる
+// 「説明」/explainと同等
+// 「修正」/fixと同等
+// 「レビューとコメント」レビューしてくれる
+// 「ドキュメントを生成する」/docと同等
+// 「テストを生成する」/testsと同等
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,11 +1,12 @@
-package createTestCode;
+package explain;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
 // テストコードを作成する
-// ctrl + i でGitHub Copilotのインラインチャットを起動
-// その後、「/tests」 と入力すると、テストコードを作成してくれる
+// 行を選択のあと、ctrl + i でGitHub Copilotのインラインチャットを起動
+// その後、「/explain」 と入力すると、説明してくれる
+// VSCodeの場合、説明する範囲を選択できる
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
